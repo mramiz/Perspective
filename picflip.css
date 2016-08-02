@@ -1,0 +1,31 @@
+.hoverable {
+	cursor:default;
+	color:#000;
+	text-decoration:none;
+}
+
+.hoverable .hover {
+	display:none;
+}
+.hoverable:hover .normal {
+	display:none;
+}
+.hoverable:hover .hover {
+	display:inline;
+}
+
+#statement{
+	text-align: center;
+    color: white;
+    width:200px;
+	height:150px;
+    line-height: 2.2;
+    background-image: url(BLM.jpg);
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+}
