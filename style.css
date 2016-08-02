@@ -1,0 +1,97 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+    font-size: 24;
+    text-align: center;
+}
+
+p1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p3 {
+    text-align: right;
+}
+#logo{
+    width: 120px;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+    float:left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 29px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+#intro-words {
+    font-family: Haettenschweiler;
+    font-size: 15vw;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 11px;
+}
+.container1{
+    height : 40vw;
+    background-color:plum;
+
+}
+.container2{
+    float: left;
+    clear: none;
+    height : 20vw;
+    width : 99vw;
+    background-color:deepskyblue;
+    margin-left:auto;
+    margin-right:auto;
+}
+.left{
+    height : auto;
+    width : 30vw;
+    float: left;
+    clear: none;
+    text-align:center;
+    margin:1.5vw;
+}
+.middle{
+    height : auto;
+    width : 30vw;
+    float: left;
+    clear: none;
+    text-align:center;
+    margin:1.5vw;
+}
+.right{
+    height : auto;
+    width : 30vw;
+    float: left;
+    clear: none;
+    text-align:center;
+    margin:1.5vw;
+}
