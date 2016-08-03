@@ -1,0 +1,26 @@
+body{
+	min-width: 100%;
+	text-align: center;
+}
+#all{
+	width:100%;
+	margin: 0 auto; /*centers the website*/
+}
+
+#likes{
+	height:5px;
+	width:50%;
+	background:#0000ee;
+	float:left;
+}
+#dislikes{
+	height:5px;
+	width:50%;
+	background:#ccc;
+	float:right;
+}
+
+#bar{
+	margin:0 auto;
+	width:60%;
+}
