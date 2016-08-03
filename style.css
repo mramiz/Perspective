@@ -3,11 +3,6 @@ body {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-h1 {
-    font-size: 24;
-    text-align: center;
-}
-
 p1 {
     text-align: center;
 }
@@ -17,9 +12,6 @@ img {
     height: auto;
 }
 
-p3 {
-    text-align: right;
-}
 #logo{
     width: 120px;
 
@@ -40,15 +32,22 @@ ul li {
 ul li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 25px 29px;
+    text-align: center;/*centers text in navbar vertically and horizontally*/
+    vertical-align: middle;
+    line-height: 0px;
+    padding: 26px 30px;
     text-decoration: none;
-}
+}/**/
 
-/* Change the link color to #111 (black) on hover */
+.navtext{
+    text-align: center;/*centers text in navbar vertically and horizontally*/
+    vertical-align: middle;
+    line-height: 41px;
+}
 li a:hover {
     background-color: #111;
-}
+}/* Change the link color to #111 (black) on hover */
+
 #intro-words {
     font-family: Haettenschweiler;
     font-size: 15vw;
@@ -58,15 +57,29 @@ li a:hover {
     line-height: 11px;
 }
 .container1{
-    height : 40vw;
+    height : 30vw;
     background-color:plum;
 
+}
+#mission_statement{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vw;     
+}
+#abuse_blurb{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vw;   
+}
+.perspective_forum{
+    text-align: center;
+    background-color: aquamarine;
 }
 .container2{
     float: left;
     clear: none;
     height : 20vw;
-    width : 99vw;
+    width : 100%;
     background-color:deepskyblue;
     margin-left:auto;
     margin-right:auto;
@@ -94,4 +107,49 @@ li a:hover {
     clear: none;
     text-align:center;
     margin:1.5vw;
+}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding:0px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 40px 25%;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
