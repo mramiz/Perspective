@@ -8,10 +8,12 @@ var likes=0, dislikes=0;
 function like(){
 	likes++;
 	calculateBar();
+    disablebutton();
 }
 function dislike(){
 	dislikes++;
 	calculateBar();
+    disablebutton();
 }
 
 //Calculates bar widths
@@ -28,8 +30,12 @@ function calculateBar(){
     //We add the numbers on the buttons, just to show how to
     document.getElementById('likeButton').value="Like ("+likes.toString()+")";
     document.getElementById('dislikeButton').value="Disike ("+dislikes.toString()+")";
-
+} 
+    function disablebutton() {
+    document.getElementById("likeButton").disabled = true;
+    document.getElementById("dislikeButton").disabled = true;
 }
+
     </script>
  </head>
 <body>
@@ -38,11 +44,10 @@ function calculateBar(){
 		<div id="likes"></div>
 		<div id="dislikes"></div>
 	</div>
-	<input type="button" value="Like" id="likeButton" onclick="like();"/>
-	<input type="button" value="Dislike" id="dislikeButton" onclick="dislike();"/>
-
+	<input type="button" value="Like" id="likeButton" onclick="like();" onclick="disabled==true"/>
+	<input type="button" value="Dislike" id="dislikeButton" onclick="dislike();" onclick="disabled==true"/>
 </div>
- 
+
 </body>
 </html>
 
