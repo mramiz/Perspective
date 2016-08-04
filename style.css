@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
 }
 
 p1 {
@@ -12,9 +12,14 @@ img {
     height: auto;
 }
 
-#logo{
+#logo {
     width: 120px;
-
+}
+#logo_color {
+    background-color: lightgray
+}
+#logo_color a:hover {
+    background-color: darkgray;
 }
 
 ul{
@@ -86,35 +91,33 @@ li a:hover {
 }
 .left{
     height : auto;
-    width : 30vw;
+    width : calc((100%-30px)/3);
     float: left;
     clear: none;
     text-align:center;
-    margin:1.5vw;
 }
 .middle{
     height : auto;
-    width : 30vw;
+    width : calc((100%-30px)/3);
     float: left;
     clear: none;
     text-align:center;
-    margin:1.5vw;
 }
 .right{
     height : auto;
-    width : 30vw;
+    width : calc((100%-30px)/3);
     float: left;
     clear: none;
     text-align:center;
-    margin:1.5vw;
+    margin: 10px 0px 10px 10px;
 }
 ul.tab {
     list-style-type: none;
     margin: 0;
     padding:0px;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid #333;
+    background-color: #333;
 }
 
 /* Float the list items side by side */
@@ -128,7 +131,7 @@ ul.tab li {
 /* Style the links inside the list items */
 ul.tab li a {
     display: inline-block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 40px 25%;
     text-decoration: none;
@@ -138,12 +141,12 @@ ul.tab li a {
 
 /* Change background color of links on hover */
 ul.tab li a:hover {
-    background-color: #ddd;
+    background-color: #111;
 }
 
 /* Create an active/current tablink class */
 ul.tab li a:focus, .active {
-    background-color: #ccc;
+    background-color: #333;
 }
 
 /* Style the tab content */
@@ -152,4 +155,9 @@ ul.tab li a:focus, .active {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+.newspaper {
+    -webkit-columns: 100px 4; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 4; /* Firefox */
+    columns: 100px 4;
 }
