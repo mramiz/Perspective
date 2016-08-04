@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="picflip.css">
-</head>
-<!--<img src='BLM2.jpg' width='300' height='250' onmouseover="this.src='blmsstmt.jpg';" onmouseout="this.src='BLM2.jpg';"/>-->
+<style>
+img{width: 200;height: 200;}
+#logo-holder {position:relative; width:200px; height:200px; /*dimensions of image*/}
+#logo-holder .image,
+#logo-holder .text {transition: opacity 0.5s ease-in-out;}
+#logo-holder .text {position: absolute; top:25%; left:0; opacity:0; text-align:center;font-size: 18px;}
 
-<body>
-<div>
-  <a href="javascript://" class="hoverable">
-    <span class="normal"><img id="logo" src=BLM.jpg></span><span class="hover"><p id="statement"><strong>Black Lives Matter is a national organization which focuses on the movement of black liberation.</strong></p></span>
-  </a>
- </div>
-</body>
-</html>
-<!--BLM2=Blair Ryan Photography-->
+#logo-holder:hover .image {opacity:0;}
+#logo-holder:hover .text {opacity:1;}
+</style>
+
+<div id="logo-holder">
+    <img src="BLM.jpg" class="image" />
+    <div class="text">Black Lives Matter is a national organization which focuses on the movement of black liberation.</div>
+</div>
