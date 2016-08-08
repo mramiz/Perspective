@@ -11,7 +11,7 @@
 </style>
 </head>
 <body>
- <nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
              <div>
                  <ul class="navbar">
                      <li class="active" id="logo_color"><a href="home.html"><img id="logo" src="logo.png" alt="lake"></a></li>
@@ -22,11 +22,9 @@
                  </ul>
              </div>
         </nav>
-        
-       
 <div class="newspaper">
- <img src="Emnatpic.png" height="200px" width="200px" border="1px"><p>
-Emnat is a 17 year old from MA. who enjoys listening to music.
+ <img src="http://placekitten.com/g/200/200" height="200px" width="200px" border="1px"><p>
+Emnat is a 17 year old from Boston, MA. who enjoys listening to music.
 </p>
 
 <img src="Marcellapic.jpg" height="200px" width="200px" border="1px"><p>
@@ -36,12 +34,11 @@ Marcella is a junior in high school from Cambridge, MA. Who enjoys swiming in he
 </div>
 <br>
 <div class="newspaper">
- <img src="Michellepic.JPG" height="200px" width="200px" border="1px"><p>
-Michelle is a 18 year old from Boston who enjoys watching 
-    and playing soccer, and hosts a radio show in her spare time.
+ <img src="http://placekitten.com/g/200/200" height="200px" width="200px" border="1px"><p>
+Michelle is a 18 year old from Boston who enjoys watching and playing socccer, and hosts a radio show in her spare time.
 </p>
 
-<img src="Nadiapic.jpg" height="200px" width="200px" border="1px"><p>
+<img src="http://placekitten.com/g/200/200" height="200px" width="200px" border="1px"><p>
 Nadia is a 16 year old from MA, who enjoys running track and field.  </p>
             
 </div>
