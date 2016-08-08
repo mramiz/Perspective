@@ -1,0 +1,253 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+}
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;/*centers text in navbar vertically and horizontally*/
+        vertical-align: middle;
+        line-height: px;
+        padding: 26px 30px;
+        text-decoration: none;
+
+    }
+
+    li a, .dropbtn {
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: #111;
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #111;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .dropdown-content a {
+      color: #fff;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {background-color: #e4a4a4}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+/* Dropdown Menu*/
+ 
+p1 {
+    text-align: center;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    width: 120px;
+        
+}
+#logo_color {
+    background-color: lightgray
+}
+#logo_color a:hover {
+    background-color: darkgray;
+    width: 100%;
+}
+
+/*
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+    float:left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;/*centers text in navbar vertically and horizontally*/
+ /*   vertical-align: middle;
+    line-height: 0px;
+    padding: 26px 30px;
+    text-decoration: none;
+}
+
+.navtext{
+    text-align: center;/*centers text in navbar vertically and horizontally*/
+/*    vertical-align: middle;
+    line-height: 41px;
+}
+li a:hover {
+    background-color: #111;
+}/* Change the link color to #111 (black) on hover */
+
+container3{z-index: -1;}
+
+#intro-words {
+    font-family: Haettenschweiler;
+    font-size: 15vw;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 11px;
+}
+
+.container1{
+    height : 25vw;
+    background-color:#75DDDD;
+    overflow-x: scroll;/*makes the scroll in the mission statement*/
+    text-align: center;
+    color: whitesmoke
+}
+#mission_statement{
+    text-align: center;
+    vertical-align: middle;
+    line-height: auto;
+    font-size: 1.5vw;
+    color: whitesmoke;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+#abuse_blurb{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20vw;
+    height: auto;
+    width:auto;
+}
+.perspective_forum{
+    text-align: center;
+    background-color: aquamarine;
+}
+.container2{
+    float: left;
+    clear: none;
+    height : 20vw;
+    width : 100%;
+    background-color:#2F2F2F;
+    margin-left:auto;
+    margin-right:auto;
+}
+.left{
+    height : auto;
+    width : calc((100%-30px)/3);
+    float: left;
+    clear: none;
+    text-align:center;
+}
+.middle{
+    /*height : auto;
+    width : calc((100%-30px)/3);*/
+    float: left;
+    clear: none;
+    text-align:center;
+    
+}
+.right{
+    height : auto;
+    width : calc((100%-30px)/3);
+    float: left;
+    clear: none;
+    text-align:center;
+    margin: 10px 0px 10px 10px;
+}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding:0px;
+    overflow: hidden;
+    border: 1px solid #333;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 40px 25%;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #111;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #333;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.newspaper {
+    -webkit-columns: 100px 4; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 4; /* Firefox */
+    columns: 100px 4;
+}
+/*Style for pic flip*/
+/*img{width: 100%;height: 10vw;}*/
+#logo-holder {position:relative; width:33%; height:20px; /*dimensions of image*/float: left;
+    clear: none;
+    text-align:center;}
+#logo-holder .image{width: 100%;height: 20vw;},
+#logo-holder .text {transition: opacity 0.5s ease-in-out;}
+#logo-holder .text {position: absolute; top:25%; left:0; opacity:0; text-align:center; color: white;}
+
+#logo-holder:hover .image {opacity:0;}
+#logo-holder:hover .text {opacity:1;}
