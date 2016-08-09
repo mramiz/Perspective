@@ -1,68 +1,74 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-family: 'Raleway', sans-serif;
 }
 
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 
-    li {
-      float: left;
-    }
+}
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;/*centers text in navbar vertically and horizontally*/
-        vertical-align: middle;
-        line-height: px;
-        padding: 26px 30px;
-        text-decoration: none;
+ul li {
+    float: left;
+}
 
-    }
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;/*centers text in navbar vertically and horizontally*/
+    vertical-align: middle;
+    line-height: px;
+    padding: 26px 30px;
+    text-decoration: none;
+}
 
-    li a, .dropbtn {
-      display: inline-block;
-      color: #fff;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
+.dropbtn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-    li a:hover, .dropdown:hover .dropbtn {
-      background-color: #111;
-    }
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
 
-    li.dropdown {
-      display: inline-block;
-    }
+li.dropdown {
+    display: inline-block;
+}
 
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #111;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 
-    .dropdown-content a {
-      color: #fff;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
 
-    .dropdown-content a:hover {background-color: #e4a4a4}
+.dropdown-content a:hover {
+    background-color: #75DDDD;
+}
 
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#iefix {
+position:relative;
+z-index:1000;
+}
 
 /* Dropdown Menu*/
  
@@ -80,49 +86,23 @@ p1 {
         
 }
 #logo_color {
-    background-color: lightgray
+    background-color: #EAFFFD;
 }
 #logo_color a:hover {
-    background-color: darkgray;
-    width: 100%;
-}
-
-/*
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-ul li {
-    float:left;
-}
-
-ul li a {
-    display: block;
-    color: white;
-    text-align: center;/*centers text in navbar vertically and horizontally*/
- /*   vertical-align: middle;
-    line-height: 0px;
-    padding: 26px 30px;
-    text-decoration: none;
+    background-color: #75DDDD;
 }
 
 .navtext{
     text-align: center;/*centers text in navbar vertically and horizontally*/
-/*    vertical-align: middle;
+    vertical-align: middle;
     line-height: 41px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
 }
-li a:hover {
-    background-color: #111;
-}/* Change the link color to #111 (black) on hover */
 
 container3{z-index: -1;}
 
 #intro-words {
-    font-family: Haettenschweiler;
     font-size: 15vw;
     font-style: normal;
     font-variant: small-caps;
@@ -131,17 +111,26 @@ container3{z-index: -1;}
 }
 
 .container1{
-    height : 25vw;
+    height : 31vw;
     background-color:#75DDDD;
     overflow-x: scroll;/*makes the scroll in the mission statement*/
     text-align: center;
-    color: whitesmoke;
+}
+.our_mission_div{
+        background-color:#75DDDD;
+
 }
 #mission_statement{
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     vertical-align: middle;
     line-height: auto;
-    font-size: 1.5vw;
+    font-size: 1.9vw;
+    color: whitesmoke;
+}
+#our_mission{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
     color: whitesmoke;
 }
 ::-webkit-scrollbar {
@@ -154,10 +143,7 @@ container3{z-index: -1;}
     height: auto;
     width:auto;
 }
-.perspective_forum{
-    text-align: center;
-    background-color: aquamarine;
-}
+
 .container2{
     float: left;
     clear: none;
@@ -230,6 +216,7 @@ ul.tab li a:focus, .active {
 
 /* Style the tab content */
 .tabcontent {
+    font-family: 'Raleway', sans-serif;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
@@ -243,21 +230,38 @@ ul.tab li a:focus, .active {
 }
 /*Style for pic flip*/
 /*img{width: 100%;height: 10vw;}*/
-#logo-holder {position:relative; width:33%; height:20px; /*dimensions of image*/float: left;
+#logo-holder {
+    position:relative; 
+    width:33%; 
+    height:20px; /*dimensions of image*/
+    float: left;
     clear: none;
-    text-align:center;}
-#logo-holder .image{width: 100%;height: 20vw;},
-#logo-holder .text {transition: opacity 0.5s ease-in-out;}
-#logo-holder .text {position: absolute; top:25%; left:0; opacity:0; text-align:center; color: white;}
+    text-align:center;
+}
+#logo-holder .image{
+    width: 100%;
+    height: 20vw;
+}
+#logo-holder .text {
+    transition: opacity 0.5s ease-in-out;
+    position: absolute; 
+    top:25%; 
+    left:0; 
+    opacity:0; 
+    text-align:center; 
+    vertical-align: middle;
+    color: white;        
+    font-family: 'Julius Sans One', sans-serif;
+}
 
-#logo-holder:hover .image {opacity:0;}
-#logo-holder:hover .text {opacity:1;}
+#logo-holder:hover .image {
+    opacity:0;
+}
+#logo-holder:hover .text {
+    opacity:1;
+}
 
-/**/
-#logo-hold {position:relative; width:50px; height:50px; /*dimensions of image*/}
-#logo-hold .image,
-#logo-hold .text {transition: opacity 0.5s ease-in-out;}
-#logo-hold .text {position: absolute; top:25%; left:0; opacity:0; text-align:center;font-size: 18px;}
-
-#logo-hold:hover .image {opacity:0;}
-#logo-hold:hover .text {opacity:1;}
+.font_swap{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size:25px; 
+}
