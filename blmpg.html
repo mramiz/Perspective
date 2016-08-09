@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perspective</title>
+        <link rel="stylesheet" href="styler.css"> <!..links to CSS..!>  
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+
+<script>
+        function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+        </script>
+    </head>
+    <body>
+
+         <div id="iefix">
+        <ul class="navbar" style="z-index:1">
+            <li><a href="homefake.html" id="logo_color"><img id="logo" src="logo.png" alt="logo"></a></li>
+            <li class="dropdown"><a class="navtext" href="#" button class="dropbtn">Issues</a>
+                <div class="dropdown-content">
+                    <a class="navtext" href="blmpg.html">Black Lives Matter</a>
+                    <a class="navtext" href="consentpg.html">Consent</a>
+                    <a class="navtext" href="abuse.html">Substance Abuse</a>
+                </div>
+            </li>
+            <li><a class="navtext" href="aboutpg.html">About Us</a></li>
+        </ul>  
+        </div>
+        <br> <br> <br> <br> <br>
+        
+   
+<!--Start of preview-->
+<div class="container3">
+<div class="w3-content">
+
+<div class="w3-content w3-display-container" style="max-width:100%">
+<img class="mySlides" src="blm1.jpg" style="width:100%;height:35vw">
+<img class="mySlides" src="blm2.jpg" style="width:100%;height:35vw">
+<img class="mySlides" src="blm3.jpg" style="width:100%;height:35vw">
+  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
+    <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-Black" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-Black" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-Black" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+</div>
+    </div>
+        
+<script>
+    <!--Change images every 10 seconds-->
+    var slideIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 10000); // Change image every 10 seconds
+}
+    
+<!--Flip picture manually-->
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+        </script>
+      <!--End of preview-->
+ 
+        
+        <br>
+        <ul class="tab">
+            <li><a href="#" class="tablinks" onclick="openCity(event, 'London')"><p class="font_swap">Learn More</p></a></li>
+            <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')"><p class="font_swap">Perspectives</p></a></li>
+        </ul>
+        <div>
+            <div id="London" class="tabcontent">
+<div class="container2">
+
+            <div id="logo-holder">
+            <a href="http://www.huffingtonpost.com/entry/campaign-zero-debunks-police-killings-myth_us_5678c575e4b014efe0d6a2cd"><img src="blmstat3.jpeg" class="image" />
+            <div class="text" style="font-size:1.8vw"> The amount of crime city has no correlation to the rate police officers kill people of any rate.</div></a>
+            </div>
+    
+            <div id="logo-holder">
+                <a href="http://presstv.ir/Detail/2016/08/04/478435/US-blacks-poll-police-violence"><img src="blmstat.png" class="image" />
+                <div class="text" style="font-size:1.7vw">This article goes in-depth on the results of a GenForward poll about people's experience with police violence, in which most blacks reported they had been personally experienced harassment or violence by the police.</div></a>
+            </div> 
+                
+            <div id="logo-holder">
+                <a href="https://news.vice.com/article/police-have-killed-at-least-1083-americans-since-michael-browns-death"><img src="blmstatistics.PNG" class="image" />
+                <div class="text" style="font-size:1.5vw">Although people have been protesting because of Michael Brown's death, police killings have not stopped since then. This article shows where other deaths have happened at the hands of the police.</div></a>
+            </div>
+                <br>
+                <div style="display: block;height: 100%;margin-top: 20%;width:100%;text-align:center;">  
+                <iframe  width="420" height="315" src="https://www.youtube.com/embed/OnCcTaYgBIw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                </div>
+                <br>
+            
+
+            
+
+            
+            <div id="Paris" class="tabcontent">
+                <p>Paris is the capital of France.</p>
+            </div>
+        </div>
+        <script src = "tab.js"></script>      
+  
+
+    </body>
+</html>

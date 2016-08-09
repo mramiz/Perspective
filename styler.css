@@ -104,8 +104,13 @@ p1 {
     font-size: 18px;
 }
 
-container3{z-index: -1;}
-
+img.logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+}
 #intro-words {
     font-size: 15vw;
     font-style: normal;
