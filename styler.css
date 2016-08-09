@@ -8,6 +8,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+   
 
 }
 
@@ -68,6 +69,9 @@ li.dropdown {
 #iefix {
 position:relative;
 z-index:1000;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
 /* Dropdown Menu*/
@@ -198,7 +202,7 @@ ul.tab li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 40px 25%;
+    padding: 5px 10px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
